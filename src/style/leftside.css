@@ -1,6 +1,6 @@
 .sideleft {
     border-right: 1px solid #e9ecef;
-    position: fixed;
+    /*position: fixed;*/
     top: 60px;
     bottom: 0;
     width: 240px;
@@ -19,7 +19,7 @@
 }
 
 .tab-pane{
-    position: absolute;
+    /*position: absolute;*/
     top: 60px;
     left: 0;
     right: 0;
@@ -49,6 +49,8 @@
 .nav-link{
     display: block;
     padding: 0.5rem 1rem;
+    text-decoration: none;
+    padding-right: 0;
 }
 
 .sideleft-menu > .nav-item > .nav-link {
@@ -86,7 +88,10 @@ li.with-sub {
     margin: 0 0 5px 13px;
     list-style: none;
     font-size: 13px;
-    display: block;
+    display: none;
 }
 
+.sideleft-menu .nav-sub .nav-item a {
+    color: #868e96;
+}
 
