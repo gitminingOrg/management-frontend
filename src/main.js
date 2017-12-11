@@ -7,6 +7,7 @@ import Container from './component/container'
 //import style
 import './style/header.css'
 import './style/leftside.css'
+import './style/pageTitle.css'
 
 require('font-awesome/css/font-awesome.min.css');
 

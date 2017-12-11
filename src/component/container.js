@@ -4,6 +4,7 @@ import React from 'react'
 
 import Header from './header'
 import LeftSide from './leftside'
+import PageTitle from './pageTitle'
 
 
 class Container extends React.Component {
@@ -29,6 +30,9 @@ class Container extends React.Component {
                 <Header/>
                 <div>
                     <LeftSide />
+                    <div>
+                        <PageTitle/>
+                    </div>
                 </div>
             </div>
         )
