@@ -10,7 +10,9 @@ class MachineStatistics extends React.Component{
     render() {
         return (
             <div className="machine-body">
+                <div className="row">
 
+                </div>
             </div>
         )
     }

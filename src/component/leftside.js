@@ -3,7 +3,7 @@ import React from 'react'
 
 
 function detailCategoryClick(e) {
-    e.preventDefault();
+    // e.preventDefault();
     let node = e.target;
     let category = node.parentNode.parentNode.parentNode.firstChild.firstChild.childNodes[1].innerHTML;
     let detail = node.innerHTML;
@@ -13,7 +13,7 @@ function detailCategoryClick(e) {
 
 //init nav title
 function homeClick(e) {
-    e.preventDefault();
+    // e.preventDefault();
     let navTitle = document.getElementById("navbar-title");
 
     navTitle.innerHTML = "<span class=\"fa fa-home\"/>";
@@ -129,7 +129,7 @@ class Machine extends React.Component{
                 </a>
                 <ul className="nav-sub">
                     <li className="nav-item">
-                        <a href="#" className="nav-link" onClick={detailCategoryClick}>型号概览</a>
+                        <a href={"/#/machine/view"} className="nav-link" onClick={detailCategoryClick}>机器概览</a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link" onClick={detailCategoryClick}>机器部件</a>
@@ -221,7 +221,7 @@ class LeftSide extends React.Component{
                     <div id="mainMenu" className="tab-pane active">
                         <ul className="sideleft-menu">
                             <li className="nav-item nav-link">
-                                <a href="javascript:" className="nav-link" onClick={homeClick}>
+                                <a href={"/#/dashboard"} className="nav-link" onClick={homeClick}>
                                     <i className="icon icon-home">
                                         <span className="fa fa-home first-child"/>
                                         <span>主页</span>
