@@ -1,6 +1,6 @@
 .sideleft {
     border-right: 1px solid #e9ecef;
-    /*position: fixed;*/
+    position: fixed;
     top: 80px;
     bottom: 0;
     width: 240px;
@@ -21,12 +21,14 @@
 }
 
 .tab-pane{
-    /*position: absolute;*/
+    position: absolute;
     /*top: 60px;*/
     left: 0;
     right: 0;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: white;
+    height: 100%;
 }
 
 .ps {

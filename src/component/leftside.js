@@ -58,7 +58,6 @@ function changeNavTitle(category, detail) {
     navTitle.innerHTML += detail;
 }
 
-
 function handleClick(e) {
     e.preventDefault();
 

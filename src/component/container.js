@@ -5,6 +5,7 @@ import React from 'react'
 import Header from './header'
 import LeftSide from './leftside'
 import PageTitle from './pageTitle'
+import HomePage from './homePage'
 
 
 class Container extends React.Component {
@@ -28,11 +29,10 @@ class Container extends React.Component {
         return (
             <div id="container">
                 <Header/>
-                <div>
-                    <LeftSide />
-                    <div>
-                        <PageTitle/>
-                    </div>
+                <LeftSide />
+                <div className="main-panel">
+                    <PageTitle/>
+                    {this.props.children}
                 </div>
             </div>
         )
