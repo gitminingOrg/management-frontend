@@ -26,7 +26,7 @@ class CardDigit extends React.Component {
         return (
             <div className="col-lg-3">
                 <div className="card">
-                    <div id={information.id} className="wd-100p ht-200 rick">
+                    <div id={information.id} className="wd-100p ht-180 rick">
                     </div>
                     <div className="overlay-body pd-x-20">
                         <div className="d-flex justify-content-between item-align-center h-60">
@@ -194,10 +194,10 @@ class HomePage extends React.Component {
     }
 
     render() {
-        let machineInfo = {"id": "machine", "name": "机器总量", "target": "#", "value": this.state.machine.length};
-        let qrcodeInfo = {"id": "qrcode", "name": "二维码总量", "target": "#", "value": this.state.qrcode.num};
-        let consumerInfo = {"id": "consumer", "name": "客户人数", "target": "#", "value": "66"};
-        let orderInfo = {"id": "order", "name": "订单数目", "target": "#", "value": "66"};
+        let machineInfo = {"id": "machine", "name": "机器总量", "target": "/#/machine/view", "value": this.state.machine.length};
+        let qrcodeInfo = {"id": "qrcode", "name": "二维码总量", "target": "/#/qrcode/view", "value": this.state.qrcode.num};
+        let consumerInfo = {"id": "consumer", "name": "客户人数", "target": "/#/consumer/view", "value": "66"};
+        let orderInfo = {"id": "order", "name": "订单数目", "target": "/#/order/view", "value": "66"};
         return (
             <div className="pagebody">
                 <div className="row row-sm">

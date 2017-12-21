@@ -1,3 +1,67 @@
 .machine-body {
     padding: 30px;
 }
+
+.machine-card{
+    width: 100%;
+}
+
+.pad-rl-20{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.ht-200 {
+    height: 200px;
+}
+
+.machine-card-title{
+    line-height: 80px;
+    height: 50px;
+    background-color: #04aec6;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.machine-status-circle{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    background-color: green;
+
+    height: 20px;
+    width: 20px;
+
+    border-radius: 50%;
+
+    border: none;
+}
+
+.machine-card-content{
+    line-height: 100px;
+    height: 100px;
+}
+
+.machine-value {
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 100px;
+}
+
+.machine-card-text {
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Oswald';
+}
+
+.div-ht-20{
+    height: 20px;
+}
+
+.div-border {
+    border-bottom: 1px solid grey;
+}

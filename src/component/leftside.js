@@ -105,7 +105,7 @@ class Qrcode extends React.Component{
                 </a>
                 <ul className="nav-sub">
                     <li className="nav-item">
-                        <a href="#" className="nav-link" onClick={detailCategoryClick}>二维码统计</a>
+                        <a href={"/#/qrcode/view"} className="nav-link" onClick={detailCategoryClick}>二维码统计</a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link" onClick={detailCategoryClick}>生成二维码</a>
@@ -129,7 +129,7 @@ class Machine extends React.Component{
                 </a>
                 <ul className="nav-sub">
                     <li className="nav-item">
-                        <a href={"/#/machine/view"} className="nav-link" onClick={detailCategoryClick}>机器概览</a>
+                        <a href={"/#/machine/view"} className="nav-link" onClick={detailCategoryClick}>机器统计</a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link" onClick={detailCategoryClick}>机器部件</a>
@@ -153,7 +153,7 @@ class Consumer extends React.Component{
                 </a>
                 <ul className="nav-sub">
                     <li className="nav-item">
-                        <a href="#" className="nav-link" onClick={detailCategoryClick}>用户设备</a>
+                        <a href={"/#/consumer/view"} className="nav-link" onClick={detailCategoryClick}>用户统计</a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link" onClick={detailCategoryClick}>分享码</a>
@@ -177,7 +177,7 @@ class Order extends React.Component{
                 </a>
                 <ul className="nav-sub">
                     <li className="nav-item">
-                        <a href="#" className="nav-link" onClick={detailCategoryClick}>添加订单</a>
+                        <a href={"/#/order/view"} className="nav-link" onClick={detailCategoryClick}>订单统计</a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link" onClick={detailCategoryClick}>淘宝订单</a>
