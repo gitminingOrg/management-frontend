@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "rickshaw": "^1.6.3"
+    "rickshaw": "^1.6.3",
+    "typeface-oswald": "0.0.45"
   }
 }
